@@ -1,3 +1,5 @@
+// 2 hours
+// solution
 int main(int num) {
   //makeNegative
 
@@ -13,3 +15,10 @@ int main(int num) {
         return num;
     }
 }
+
+int main(int num)
+{
+  return -abs(num);
+}
+
+// if(num < 0 || num == 0) return num; else { num * -1 }
